@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Name Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            padding: 32px 40px;
+            max-width: 350px;
+            text-align: center;
+        }
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 18px;
+            border: 3px solid #4a90e2;
+        }
+        .name {
+            font-size: 1.6em;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #333;
+        }
+        .role {
+            color: #4a90e2;
+            font-size: 1.1em;
+            margin-bottom: 16px;
+        }
+        .info {
+            color: #555;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+        .contact {
+            margin-top: 18px;
+            font-size: 0.95em;
+            color: #888;
+        }
+        .contact a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="avatar" src="https://i.pravatar.cc/150?img=3" alt="Your Avatar">
+        <div class="name">Thar Lin Htet</div>
+        <div class="role">Web Developer</div>
+        <div class="info">Yangon, Myanmar</div>
+        <div class="info">Passionate about building web apps and learning new technologies.</div>
+        <div class="contact">
+            <div>Email: <a href="mailto:tharlinhtet@example.com">tharlinhtet@example.com</a></div>
+            <div>GitHub: <a href="https://github.com/Thar244326" target="_blank">Thar244326</a></div>
+        </div>
+    </div>
+</body>
+</html>
