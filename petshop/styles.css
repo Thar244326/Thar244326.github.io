@@ -6,7 +6,8 @@ body {
 }
 
 header {
-    background-color: #269929;
+    background-color: #391385;
+    background-image: url('img/dog.jpg');
     padding: 20px;
     color: white;
 }
